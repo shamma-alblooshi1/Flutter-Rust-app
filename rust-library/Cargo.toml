@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "cryptor", 
+    "cryptor_jni",
+    "cryptor_global",
+    "cryptor_wasm"
+]
+
+
+[profile.release]
+panic = 'abort'
