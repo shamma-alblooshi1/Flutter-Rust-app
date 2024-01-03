@@ -1,7 +1,9 @@
 # Flutter-Rust-app
 
 ## Requirements 
-Android [SDK](https://developer.android.com/studio) and [NDK]https://developer.android.com/ndk/ installed
+Android [SDK](https://developer.android.com/studio)
+
+Android [NDK](https://developer.android.com/ndk/) installed
 
 ANDROID_HOME env variable pointing to the Android SDK location
 
