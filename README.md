@@ -1,7 +1,7 @@
 # Flutter-Rust-app
 
 ## Requirements 
-Android [SDK](https://developer.android.com/studio)
+Android [SDK](https://developer.android.com/studio) installed
 
 Android [NDK](https://developer.android.com/ndk/) installed
 
