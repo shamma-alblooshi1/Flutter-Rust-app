@@ -10,13 +10,13 @@ Android NDK version should match the one inside the rust-library/cryptor_jni/bui
 Install [Rust](https://www.rust-lang.org/tools/install)
 
 ## Usage 
-###Creating the JNI files for Android 
+### Creating the JNI files for Android 
 ```bash
 cd rust-library/cryptor_jni
 cargo run --bin release
 cargo run --bin publish
 ```
-###Creating the wasm package for Web apps
+### Creating the wasm package for Web apps
 ```bash
 cd rust-library/cryptor_wasm
 rustup target add wasm32-unknown-unknown
@@ -24,7 +24,7 @@ cargo build --target wasm32-unknown-unknown
 wasm-pack build --target web 
 ```
 
-##Running the Flutter application
+## Running the Flutter application
 Import in Android Studio the app folder
 
 Run app via IDE selected 
